@@ -1,0 +1,110 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/*This CSS for small Mobile*/
+
+@media(max-width: 567px){
+	.footer-icon ul li{
+		display: inline;
+	}
+	.footer-icon{
+		text-align: center;
+	}
+	.footer .text-right{
+		text-align: center !important;
+		margin-top: 20px;
+	}
+}
+
+
+@media (max-width: 767px){
+  .slicknav_menu {
+	display:block;
+
+}
+.main-menu{
+	display:none;
+}
+.about-right h3{
+	margin-top: 50px;
+}
+.video-area h2{
+	font-size: 24px;
+}
+.skill-right h3{
+	margin-top: 50px;
+}
+.portfolio-item img{
+	width: 100%;
+}
+.blog-item img{
+	width: 100%;
+}
+
+}
+
+
+
+
+/*This CSS for Teblet Mobile*/
+
+@media (min-width: 768px){
+  .slicknav_menu {
+	display:block;
+}
+.main-menu{
+	display:none;
+
+}
+}
+
+
+
+/*This CSS for Midium Divice*/
+
+@media (min-width: 991px){
+   .slicknav_menu {
+	display:none;
+}
+.main-menu{
+	display:block;
+}
+.header-content h1{
+	font-size: 45px;
+}
+.header-content p{
+	font-size: 14px;
+}
+.counter-box{
+	margin-bottom: 35px;
+}
+.blog-item{
+	margin-bottom: 35px;
+}
+}
+
+
+/*This CSS for Large Divice*/
+
+@media (min-width: 1168px){
+  .slicknav_menu {
+	display:none;
+}
+.main-menu{
+	display:block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
